@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -euo pipefail
+
+hugo build --baseURL $BASE_URL --minify

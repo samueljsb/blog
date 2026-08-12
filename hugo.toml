@@ -1,0 +1,41 @@
+locale = "en-gb"
+title = "Sam Searles-Bryant's blog"
+
+theme = "anubis2"
+
+[pagination]
+pagerSize = 5
+
+[params.author]
+name = "Samuel Searles-Bryant"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[menu.main]]
+name = "Archive"
+identifier = "archive"
+url = "/posts/"
+weight = 4
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+style = "github"
+
+[params.anubis2]
+hideFooterAttribution = true
+
+[[params.anubis2.socialIcons]]
+id = "mastodon"
+url = "https://mastodon.me.uk/@samueljsb"

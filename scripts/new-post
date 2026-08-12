@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -euo pipefail
+
+hugo new content "content/posts/$(date '+%Y/%m')/$1.md"

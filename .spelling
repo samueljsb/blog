@@ -1,0 +1,23 @@
+# English words
+# -------------
+# pragma: alphabetize[case-insensitive]
+3rd-party
+linter
+
+# Names
+# -----
+# pragma: alphabetize[case-insensitive]
+Seddon
+
+# Other
+# -----
+# `pragma` in comments indicates a directive for tooling.
+pragma
+
+# File-specific
+# -------------
+
+: content/posts/2026/08/allow-list-architecture.md
+# pragma: alphabetize[case-insensitive]
+import-linter
+import-linter-forbid-external-packages
