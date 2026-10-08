@@ -17,7 +17,7 @@ pragma
 # File-specific
 # -------------
 
-: content/posts/2026/08/allow-list-architecture.md
+: content/posts/2026/10/allow-list-architecture.md
 # pragma: alphabetize[case-insensitive]
 import-linter
 import-linter-forbid-external-packages
